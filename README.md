@@ -4,9 +4,9 @@ A very simple php/postgres web application to allow the fair division of the sen
 
 ## Features
 
-- Dynamic photo gallery from `original/` directory
 - Auto-resizing to a consistent width (800px by default) with GD library
 - Click-to-claim interface with name-based markers
+- Dynamic photo gallery from `original/` directory
 - Persistent marker storage in PostgreSQL
 
 ## Requirements
