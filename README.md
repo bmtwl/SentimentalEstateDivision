@@ -20,8 +20,8 @@ A very simple php/postgres web application to allow the fair division of the sen
 
 1. Clone repository:
 ```bash
-git clone https://github.com/yourrepo/estate-markers.git
-cd estate-markers
+git clone https://github.com/bmtwl/SentimentalEstateDivision
+cd SentimentalEstateDivision
 ```
 
 2. Create PostgreSQL database:
@@ -45,13 +45,13 @@ mkdir original resized
 chmod 775 resized
 ```
 
-5. Add photos to `original/` directory (JPEG/PNG/GIF)
+5. Add photos to `original/` directory
 
 6. Configure your webserver to serve this folder securely (outside of the scope of this readme). Consider http simple auth to protect it.
 
 ## Usage
 
-1. Access via web browser at `http://your-server/SentimentalEstateDivision/`
+1. Access via web browser at eg `http://your-server/SentimentalEstateDivision/`
 2. Enter your name in the form
 3. Click anywhere on photos to place markers
 4. Markers persist automatically and appear for all users
@@ -61,7 +61,6 @@ chmod 775 resized
 - No authentication - use behind secure proxy
 - Input sanitization for XSS prevention
 - PostgreSQL prepared statements prevent SQL injection
-- Store sensitive data outside web root in production
 
 ## License
 
